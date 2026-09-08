@@ -30,15 +30,15 @@ each holder may submit once per day. a new submission overwrites the previous on
 
 access scales with holdings. larger positions unlock larger regions and greater influence over the aggregate personality.
 
-* **cortex.** 50k $NORA. 12 slots. small regions that contribute to the collective tone.
-* **mid cortical.** 200k $NORA. 8 slots. medium regions with meaningful weight on behavior.
-* **major lobe.** 1M $NORA. 4 slots. large regions that act as primary personality drivers.
+* **cortex.** hold 50k $NORA. small regions that contribute to the collective tone.
+* **mid cortical.** hold 200k $NORA. medium regions with meaningful weight on behavior.
+* **major lobe.** hold 1M $NORA. large regions that act as primary personality drivers.
 
-there are 24 regions in total. each belongs to exactly one wallet, allocated first come first served within a tier.
+there are 50 slots open right now, spread across the tiers and allocated first come first served. each belongs to exactly one wallet. the supply is not fixed: more slots can be created as the community grows, always in a way that keeps ownership spread wide.
 
 ## anti capture
 
-the region model exists specifically to stop any one buyer from seizing the whole personality. influence is bounded by a finite number of slots per tier rather than by raw balance, so acquiring an enormous position cannot translate into unilateral control. the mind is meant to stay the product of many contributors, never a single one.
+the region model exists specifically to stop any one buyer from seizing the whole personality. influence is bounded by the number of available slots rather than by raw balance, and new slots are only ever added deliberately, so acquiring an enormous position cannot translate into unilateral control. the mind is meant to stay the product of many contributors, never a single one.
 
 ## personality pipeline
 
