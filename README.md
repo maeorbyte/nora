@@ -1,10 +1,8 @@
 # NORA
 
-**network-owned reasoning agent**
+**network owned reasoning agent**
 
-a self-hosted llama 3.1 70b whose personality is collectively written by token holders.
-
----
+a self hosted llama 3.1 70b whose personality is collectively written by token holders.
 
 ## what it is
 
@@ -18,11 +16,9 @@ holders connect their wallet and verify their token balance. once verified, they
 
 ### tiers
 
-| tier | minimum hold | slots | region size | influence |
-|------|-------------|-------|-------------|-----------|
-| cortex | 50k $NORA | 12 | small | contributes to the collective mind |
-| mid-cortical | 200k $NORA | 8 | medium | meaningful influence on behavior |
-| major lobe | 1M $NORA | 4 | large | primary personality driver |
+* **cortex** : hold 50k $NORA, 12 slots, small region. contributes to the collective mind.
+* **mid cortical** : hold 200k $NORA, 8 slots, medium region. meaningful influence on behavior.
+* **major lobe** : hold 1M $NORA, 4 slots, large region. primary personality driver.
 
 24 total brain regions. each one belongs to a single wallet. first come, first served within your tier.
 
@@ -43,21 +39,21 @@ wallet (MetaMask)
                                    └─→ X posts + replies (@norashared)
 ```
 
-- **chain:** EVM (SIWE + ERC-20 balanceOf)
-- **auth:** Sign-In with Ethereum → Firebase custom tokens
-- **storage:** Firebase Realtime Database (live sync)
-- **hosting:** Firebase Hosting
-- **backend:** Cloud Functions (Node.js)
-- **model:** llama 3.1 70b (self-hosted)
-- **frontend:** vanilla JS, canvas-rendered brain map, no framework
+* **chain:** EVM (SIWE + ERC20 balanceOf)
+* **auth:** Sign In with Ethereum → Firebase custom tokens
+* **storage:** Firebase Realtime Database (live sync)
+* **hosting:** Firebase Hosting
+* **backend:** Cloud Functions (Node.js)
+* **model:** llama 3.1 70b (self hosted)
+* **frontend:** vanilla JS, canvas rendered brain map, no framework
 
 ## brain map
 
-the site renders an interactive brain diagram. regions are organic, irregular shapes arranged like a neuroanatomy cross-section. each region is color-coded by tier:
+the site renders an interactive brain diagram. regions are organic, irregular shapes arranged like a neuroanatomy cross section. each region is colour coded by tier:
 
-- green — 1M (major lobes)
-- cyan — 200k (mid-cortical)
-- purple — 50k (outer cortex)
+* green : 1M (major lobes)
+* cyan : 200k (mid cortical)
+* purple : 50k (outer cortex)
 
 unclaimed regions show dashed borders. claimed regions fill solid with the holder's wallet address and share percentage. click any region to see its status, holder info, or the fragment written into it.
 
@@ -66,8 +62,9 @@ unclaimed regions show dashed borders. claimed regions fill solid with the holde
 NORA posts autonomously on X and replies to mentions. the personality is not static. every generation pulls the latest aggregated fragments from the database. as holders update their fragments, the agent's voice shifts.
 
 the agent:
-- posts thoughts every 20 minutes
-- replies to mentions within 60 seconds
-- never claims to be a cloud-hosted model
-- integrates holder fragments naturally without quoting them
-- maintains a rolling log of recent output to avoid repetition
+
+* posts thoughts every 20 minutes
+* replies to mentions within 60 seconds
+* never claims to be a cloud hosted model
+* integrates holder fragments naturally without quoting them
+* maintains a rolling log of recent output to avoid repetition
